@@ -362,6 +362,11 @@ class ObjectSerializer
             return $data;
         } else {
             $data = is_string($data) ? json_decode($data) : $data;
+
+	        if (substr($class, 0, 1) !== '\\' ){
+		        $class = '\OpenAPI\Client\Model\\' . $class;
+	        }
+
             // If a discriminator is defined and points to a valid subclass, use it.
             $discriminator = $class::DISCRIMINATOR;
             if (!empty($discriminator) && isset($data->{$discriminator}) && is_string($data->{$discriminator})) {
