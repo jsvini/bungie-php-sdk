@@ -361,6 +361,10 @@ class Destiny2Api
         if ($this->config->getAccessToken() !== null) {
             $headers['Authorization'] = 'Bearer ' . $this->config->getAccessToken();
         }
+        
+        if ($this->config->getApiKey('X-API-Key') !== null) {
+            $headers['X-API-Key'] = $this->config->getApiKey('X-API-Key');
+        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
