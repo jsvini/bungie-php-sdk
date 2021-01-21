@@ -1,0 +1,13 @@
+# # DestinyHistoricalStatsDestinyPostGameCarnageReportData
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**period** | [**\DateTime**](\DateTime.md) | Date and time for the activity. | [optional]
+**starting_phase_index** | **int** | If this activity has \&quot;phases\&quot;, this is the phase at which the activity was started. | [optional]
+**activity_details** | [**DestinyHistoricalStatsDestinyHistoricalStatsActivity**](DestinyHistoricalStatsDestinyHistoricalStatsActivity.md) | Details about the activity. | [optional]
+**entries** | [**\OpenAPI\Client\Model\DestinyHistoricalStatsDestinyPostGameCarnageReportEntry[]**](DestinyHistoricalStatsDestinyPostGameCarnageReportEntry.md) | Collection of players and their data for this activity. | [optional]
+**teams** | [**\OpenAPI\Client\Model\DestinyHistoricalStatsDestinyPostGameCarnageReportTeamEntry[]**](DestinyHistoricalStatsDestinyPostGameCarnageReportTeamEntry.md) | Collection of stats for the player in this activity. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

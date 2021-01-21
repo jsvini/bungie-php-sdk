@@ -1,0 +1,10 @@
+# # DestinyDefinitionsDestinyBubbleDefinition
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**hash** | **int** | The identifier for the bubble: only guaranteed to be unique within the Destination. | [optional]
+**display_properties** | [**DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition**](DestinyDefinitionsCommonDestinyDisplayPropertiesDefinition.md) | The display properties of this bubble, so you don&#39;t have to look them up in a separate list anymore. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

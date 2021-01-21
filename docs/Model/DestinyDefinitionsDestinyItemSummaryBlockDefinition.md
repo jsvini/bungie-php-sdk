@@ -1,0 +1,9 @@
+# # DestinyDefinitionsDestinyItemSummaryBlockDefinition
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**sort_priority** | **int** | Apparently when rendering an item in a reward, this should be used as a sort priority. We&#39;re not doing it presently. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

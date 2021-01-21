@@ -1,0 +1,9 @@
+# # DestinyDefinitionsPresentationDestinyPresentationNodeRequirementsBlock
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**entitlement_unavailable_message** | **string** | If this node is not accessible due to Entitlements (for instance, you don&#39;t own the required game expansion), this is the message to show. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
